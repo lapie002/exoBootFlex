@@ -16,30 +16,48 @@ p.espace{
       width: 80%;
     }
 }
-ul.dame{
 
+.fond{
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+}
+
+ul.dame{
+    display: flex;
     padding: 0;
     border: 1px solid black;
+    text-align: center;
     li{
+      width: 80%;
       list-style-type: none;
     }
     li:first-child{
       background: yellow;
+      width: 10%;
+    }
+    li:last-child{
+      background: yellow;
+      width: 10%;
     }
 }
 ul.dame2{
-
+    display: flex;
+    justify-content: space-around;
     padding: 0;
     border: 1px solid black;
+    text-align: center;
     li{
+
       list-style-type: none;
     }
     li:first-child{
       background: yellow;
     }
+
 }
 ul.dame3{
-
+   display: flex;
     padding: 0;
     border: 1px solid black;
     li{
@@ -55,7 +73,7 @@ ul.dame3{
     }
 }
 ul.dame4{
-
+    text-align: center;
     padding: 0;
     border: 1px solid black;
     li{
@@ -63,9 +81,11 @@ ul.dame4{
     }
 }
 .country{
-
+display: flex;
 }
 .river2{
+  order: 2;
+  width: 50%;
   background: $river;
 
 }
@@ -75,8 +95,13 @@ ul.dame4{
   min-height: 100px;
 
 }
+.bergeG{
+  order: 1;
+  width: 25%;
+}
 .bergeD{
-
+  order: 3;
+  width: 25%;
 }
 .fond{
 

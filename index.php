@@ -13,7 +13,6 @@
 
 <div class="container">
 
-
   <header class="row">
     <div class="col-sm-12">
       <h1>Entete</h1>
@@ -30,7 +29,7 @@
   <section>
     <h2>BOOTSTRAP</h2>
     <p>Essayez navbar navbar-default et navbar-inverse sur la navigation ci-dessous :</p>
-    <nav class="">
+    <nav class="navbar navbar-default">
         <ul class="nav navbar-nav">
           <li class="active"> <a href="#">Accueil</a> </li>
           <li> <a href="#">Contact</a> </li>
@@ -38,33 +37,31 @@
     </nav>
     <p>La premiere row est divisé 2 colonnes, une de 9 et une de 3, celle de 9 contient à nouveau une row de 12 qui elle est à nouveau divisé en 3(3 colonnes de 4 donc)</p>
     <div class="row">
-      <div class="">
+      <div class="col-md-9">
         <div class="row artistes">
-          <div class="">
+          <div class="col-md-4">
             <img src="assets/img/1.jpg" alt="Triple R" />
             <h4>Triple R – Till The Wheels Fall Off</h4></div>
-          <div class="">
+          <div class="col-md-4">
             <img src="assets/img/2.jpg" alt="Allez savoir" />
             <h4>Allez savoir ! Ondes électromagnétiques, quels effets sur notre santé et </h4></div>
-          <div class="">
+          <div class="col-md-4">
             <img src="assets/img/3.jpg" alt="Soul System" />
             <h4>Soul System – le Two-Step à René</h4></div>
         </div>
       </div>
-      <div class="">Largeur 3</div>
+      <div class="col-md-3">Largeur 3</div>
     </div>
-
 
     <div class="row">
-      <div class="">Largeur 6</div>
-      <div class="">Largeur 6</div>
+      <div class="col-md-6">Largeur 6</div>
+      <div class="col-md-6">Largeur 6</div>
     </div>
-
 
     <p>Mettre la berge droite completement à droite grâce à la classe offset de bootstrap (sans rajouter d'élément HTML donc)</p>
     <div class="row river">
       <div class="col-xs-3 gazon">Berge gauche</div>
-      <div class="col-xs-3 gazon">Berge droite</div>
+      <div class="col-xs-3 col-xs-offset-6 gazon">Berge droite</div>
     </div>
     <h2>FIN BOOTSTRAP</h2>
   </section>
